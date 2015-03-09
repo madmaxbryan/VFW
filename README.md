@@ -1,2 +1,2 @@
 # VFW
-VFW Post 1325
+VFW Post 1325 Website Script
