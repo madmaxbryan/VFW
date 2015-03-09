@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets.css">
+<title>VFW Post 1325</title>
+<link rel="icon" href="Images/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon"/>
+<meta charset="utf-8">
+</head>
+
+<body>
+<div id="header"></div>
+<div id="buttons">
+  <table id="tablebutton">
+    <tr id="buttonrow">
+      <td class="butcol"><a href="index.html" class="buthov">HOME</a></td>
+      <td class="butcolnil"></td>
+      <td class="butcol"><a href="events.html" class="buthov">EVENTS</a></td>
+      <td class="butcolnil"></td>
+      <td class="butcol"><a href="photos.html" class="buthov">PHOTOS</a></td>
+      <td class="butcolnil"></td>
+      <td class="butcol"><a href="join.html" class="buthov">JOIN</a></td>
+      <td class="butcolnil"></td>
+      <td class="butcol"><a href="aboutus.html" class="buthov">ABOUT US</a></td>
+      <td class="butcolnil"></td>
+      <td class="butcol"><a href="contact.html" class="buthov">CONTACT</a></td>
+    </tr>
+  </table>
+</div>
+
+<div id="main">
+<div id="joinpic"><img style="max-height:100%; max-width:100%" src="Images/UncleSam.png"></div>
+<form action="../gdform.php" method="post">
+<input type="hidden" name="subject" value="Join Submission" />
+<input type="hidden" name="redirect" value="VFW/thankyoujoin.html" />
+
+	<table width="90%" border="0" cellspacing="5" cellpadding="5">
+  <tr>
+    <td>
+    	<p>&nbsp;</p>
+  <h1 style="font-size:18px">Requirements to join:</h1>
+  <h1 style="font-size:18px">&nbsp;&nbsp;If you have -</h1>
+  	<ul>
+    	<li>Received a campaign medal for overseas service;</li>
+        <li>Have served 30 consecutive or 60 non-consecutive days in Korea;</li>
+        <li>Have ever received hostile fire or imminent danger pay</li>
+    </ul>
+  <h1 style="font-size:18px">&nbsp;&nbsp;- then you're eligible to join the VFW</h1>
+  <p>&nbsp;</p>
+  <h1 style="font-size:18px">Joining the VFW is a great experience that you earned. Enjoy the comradery of fellow veterans, participate in community events, and get discounts for things like medical needs, insurance, travel services, and electronics such as cell phones and computers! </h1>
+  <p>&nbsp;</p>
+  	<h1 style="font-size:18px">Please fill out the form below, you will be contacted by the commander of Post 1324</h1>
+  	
+    	<table id="conBody" width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="85px">Name:</td>
+    <td width="120px"><input name="FirstName" type="text" placeholder="First Name"></td>
+    <td width="auto"><input name="LastName" type="text" placeholder="Last Name"></td>
+  </tr>
+  <tr>
+    <td>Adress:</td>
+    <td colspan="2"><input name="Address1" type="text" placeholder="Address"></td>
+  </tr>
+  <tr>
+    <td>Adress:</td>
+    <td colspan="2"><input name="Address2" type="text" placeholder="Address (Cont.)"></td>
+  </tr>
+  <tr>
+    <td>City:</td>
+    <td><input name="city" type="text" placeholder="City"></td>
+    <td width="35px">State: <select name="state" size="1">
+    	<option value="AL">AL</option>
+		<option value="AK">AK</option>
+		<option value="AZ">AZ</option>
+		<option value="AR">AR</option>
+		<option value="CA">CA</option>
+		<option value="CO">CO</option>
+		<option value="CT">CT</option>
+		<option value="DE">DE</option>
+		<option value="DC">DC</option>
+		<option value="FL">FL</option>
+		<option value="GA">GA</option>
+		<option value="HI">HI</option>
+		<option value="ID">ID</option>
+		<option value="IL">IL</option>
+		<option value="IN">IN</option>
+		<option value="IA">IA</option>
+		<option value="KS">KS</option>
+		<option value="KY">KY</option>
+		<option value="LA">LA</option>
+		<option value="ME">ME</option>
+		<option value="MD">MD</option>
+		<option value="MA">MA</option>
+		<option value="MI">MI</option>
+		<option value="MN">MN</option>
+		<option value="MS">MS</option>
+		<option value="MO">MO</option>
+		<option value="MT">MT</option>
+		<option value="NE">NE</option>
+		<option value="NV">NV</option>
+		<option value="NH">NH</option>
+		<option value="NJ">NJ</option>
+		<option value="NM">NM</option>
+		<option value="NY">NY</option>
+		<option value="NC">NC</option>
+		<option value="ND">ND</option>
+		<option value="OH">OH</option>
+		<option value="OK">OK</option>
+		<option value="OR" selected>OR</option>
+		<option value="PA">PA</option>
+		<option value="RI">RI</option>
+		<option value="SC">SC</option>
+		<option value="SD">SD</option>
+		<option value="TN">TN</option>
+		<option value="TX">TX</option>
+		<option value="UT">UT</option>
+		<option value="VT">VT</option>
+		<option value="VA">VA</option>
+		<option value="WA">WA</option>
+		<option value="WV">WV</option>
+		<option value="WI">WI</option>
+		<option value="WY">WY</option>
+    </select></td>
+    <td>ZIP:</td>
+    <td><input name="zip" type="text" placeholder="ZIP"></td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td colspan="2"><input name="Email" type="text" placeholder="E-Mail"></td>
+  </tr>
+  <tr>
+    <td>Phone:</td>
+    <td><input name="phone" type="text" placeholder="XXX-XXX-XXXX"></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="Submit" type="submit" value="Submit"></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+    
+    </td>
+  </tr>
+</table>
+</form>
+</div>
+<div class="footer">
+  <table width="1000">
+    <tr>
+      <td width="50%">
+      <table width="500">
+          <tr>
+            <td width="50%"><a class="butfoot" href="index.html">HOME</a></td>
+            <td width="50%"><a class="butfoot" href="join.html">JOIN THE VFW</a></td>
+          </tr>
+          <tr>
+            <td><a class="butfoot" href="events.html">EVENTS</a></td>
+            <td><a class="butfoot" href="http://www.vfworegon.org/">OREGON VFW</a></td>
+          </tr>
+          <tr>
+            <td><a class="butfoot" href="photos.html">PHOTO GALLERY</a></td>
+            <td><a class="butfoot" href="http://www.vfw.org/">NATIONAL VFW</a></td>
+          </tr>
+          <tr>
+            <td><a class="butfoot" href="aboutus.html">ABOUT US</a></td>
+            <td><a class="butfoot" href="donate.html">DONATE</a></td>
+          </tr>
+          <tr>
+            <td><a class="butfoot" href="contact.html">CONTACT</a></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><div align="center">COPYRIGHT 2015 BRYAN TOWNSEND</div></td>
+          </tr>
+        </table>
+      <td width="50%">
+      <table width="500" border="0" cellspacing="0" cellpadding="0" bordercolor="#000" >
+          <tr>
+            
+          </tr>
+        </table>
+      <img src="Images/Branches.jpg">        
+      </tr>
+      </table>
+</div>
+</body>
+</html>

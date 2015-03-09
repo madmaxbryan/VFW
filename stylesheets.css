@@ -1,0 +1,197 @@
+html {
+	background: #C0C0C0;
+	height: 100%;
+	}
+body {
+	min-height: 100%;
+	}
+#header {
+	margin: 0px;
+	padding: 0px;
+	height: 200px;
+	width: 1000px;
+	/*border: 1px solid #0F0;*/
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 100px;
+	transform: translate(-50%, -50%);
+	background-image: url(Images/logo.jpg);
+	background-size:100%;
+}
+#buttons{
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	width: 998px;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 215px;
+	transform: translate(-50%, -50%);
+	background-color:#000;
+	}
+#main {
+	margin: 0px;
+	padding: 0px;
+	min-height: 48vh;
+	width: 998px;
+	border: 1px solid #000;
+	z-index: 0;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:230px;
+	background: #fff;
+	position:relative;
+}
+#tablebutton {
+	height: 30px;
+	width: auto;
+	padding: 0px;
+	margin-left:auto; 
+    margin-right:auto;
+	}
+#buttonrow {
+	color:white;
+	height: 21px;
+	width: auto;
+	padding: 0px;
+	margin-left:auto; 
+    margin-right:auto;
+	}
+
+	
+	
+.butcol {
+	height: 21px;
+	width: auto;
+	border:1px solid #000;
+	padding: auto;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	
+	}
+.butcolnil {
+	height: 21px;
+	width: 50px;
+	border:1px solid #000;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	}
+.buthov {
+	text-decoration:none;
+	color:white;
+	}
+a.buthov:hover {
+	color: #0CF;
+	}
+.footer {
+	bottom: 0;
+  	padding: 0px;
+  	background-color: #000;
+	width:1000px;
+	height:130px;
+	margin-left:auto; 
+    margin-right:auto;
+	color:#FFF;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+a.butfoot:link {
+    text-decoration: none;
+}
+
+a.butfoot:visited {
+    text-decoration: none;
+}
+
+a.butfoot:hover {
+    text-decoration: none;
+}
+
+a.butfoot:active {
+    text-decoration: none;
+}
+/* unvisited link */
+a.butfoot:link {
+    color: #fff;
+}
+
+/* visited link */
+a.butfoot:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a.butfoot:hover {
+    color: #fff;
+}
+
+/* selected link */
+a.butfoot:active {
+    color: #fff;
+}
+#floatMenu {
+  position: fixed;
+  right: .5%;
+  top: 50%;
+  width: 150px;
+  height:300px;
+  margin-top: -150px;
+  border:4px solid #409FFF;
+  border-radius:20px;
+  background-color: #73b9ff;
+}
+#conHead {
+	font-size:22px;
+	}
+#conBody {
+	font-size:18;
+	font-weight:bold;	
+	}
+.calMonth {
+	width:65px;
+	text-align:right;
+	font-weight:bold;	
+	}
+.calDay {
+	width:65px;
+	text-align:left;	
+	}
+.calTime {
+	width:60px;
+	text-align:left;
+	padding-right:5px;
+	padding-left:5px;	
+	}
+.calWhat {
+	width:250px;
+	}
+.calWhere {
+	width:230px;	
+	}
+.calWhere a {
+	text-decoration:none;
+	}
+.calWhere a:link {color: #00F}
+.calWhere a:visited {color: #00F}
+.calWhere a:hover { color: #09F}
+.calWhere a:active {color: #09F}
+table.blogtab {
+	width:90%; 
+	border:1; 
+	cellspacing:0; 
+	cellpadding:5;
+	border-radius:15px;
+	}
+#joinpic {
+	height:225px;
+	width:300px
+	 z-index: 3;
+    position: absolute;
+    right: 150px;
+    top: 25px;
+	}
